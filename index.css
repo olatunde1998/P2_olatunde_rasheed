@@ -1,0 +1,285 @@
+@import url('https://fonts.google.com/specimen/Open+Sans');
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+    font-family: 'Roboto', sans-serif;
+    background-color: rgba(255, 255, 255, 1);
+    color: rgba(0, 0, 0, 1);
+}
+img{
+    max-width:100%;
+    height:auto;
+}
+#header{
+    color: rgba(0, 0, 0, 1);
+    display: flex;
+    /* border: 2px solid red;  */
+    padding: 20px 40px 20px 20px;
+    background-color: rgba(255, 255, 255, 1);
+    justify-content: center;
+    justify-content: space-around;
+    box-shadow: 20px 20px 20px 20px rgb(145, 145, 145);
+}
+.ohmyfoodBrand1{
+    color: white;
+    /* border: 2px solid blue; */   
+}
+#bacArrowIcon{
+    width: 24px;
+    display: none;
+    /* border: 2px solid green; */
+}
+.parisContainer{
+    /* border: 2px solid blue; */
+    padding: 20px 0px 20px 0px;
+    background-color: rgba(234, 234, 234, 1);
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    box-shadow: 5px 5px 5px 5px rgb(145, 145, 145);
+}
+.parisLocationImg{
+    width: 18px;
+    margin-right: 24px;
+}
+.bookMenuContainer{
+    padding: 15px 0px 30px 0px;
+    /* border: 2px solid red; */
+    text-align: center;
+    background-color: rgba(246, 246, 246, 1);
+}
+.bookHeading{
+    /*border: 2px solid ;*/
+    padding: 15px 0px 30px 0px;
+    font-size: 20px;
+}
+.bookInfo{
+    /*border: 2px solid red;*/
+    text-align: center;
+    padding: 0px 0px 20px 0px;
+    font-size: 14px;
+    line-height: 20px;
+    color: rgb(181, 181, 179)
+}
+.bookMenuButton{
+    padding: 10px 10px 10px 10px;
+    border-radius: 50px 50px 50px 50px;
+    background-color: rgba(219, 109, 218, 1);
+    color: white;
+}
+#howItWorkContainer{
+    /* border: 5px solid blue; */
+    padding: 20px 0px 30px 20px;
+    background-color:rgba(255, 255, 255, 1) ;
+}
+.howItWorkHeading{
+    margin-bottom: 30px;
+    font-size: 20px;
+}
+.chooseBox{
+    display: flex;
+    padding: 20px 20px 20px 20px;
+    border-radius: 20px 20px 20px 20px;
+    width:310px;
+    margin-bottom: 30px;
+    font-size: 18px;
+    /* border: 2px solid; */
+    background-color: rgba(246, 246, 246, 1);
+}
+.chooseImg{
+    width: 16px;
+    margin-right: 20px;
+}
+.chooseWord{
+    padding-top: 5px;
+}
+#restaurantContainer{
+    /* border: 2px solid red; */
+    padding: 20px 0px 30px 20px;
+    background-color: rgba(246, 246, 246, 1);
+}
+.restaurantHeading{
+    margin-bottom: 30px;
+    font-size: 20px;
+}
+#fullPaletteBox,#enchantedBox,#bastilleBox,#gourmandBox{
+    /*border: 2px solid blue;*/
+    margin: 0px 25px 30px 0px;
+    border-radius: 0px 0px 20px 20px;
+    /* background-color: white; */
+}
+.foodNewYork{
+    /*border: 1px solid greenyellow;*/
+    border-radius: 20px 20px 0px 0px;
+}
+.foodNewYork2{
+    /*border: 1px solid greenyellow;*/
+    border-radius: 20px 20px 0px 0px;
+    height: 200px;
+    width: 100%;
+}
+#paletteInfoContainer{
+    /* border: 2px solid green; */
+    background-color: rgba(255, 255, 255, 1);
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 10px 20px 10px;
+    border-radius: 0px 0px 20px 20px;
+    box-shadow: 3px 3px 3px 3px rgb(214, 213, 213);
+}
+.paletteWord{
+    /*border: 2px solid red;*/
+    font-size: 18px;
+}
+#loveImg,.loveImg{
+    width: 30px;
+    height: 100%;
+    padding-right: 10px;
+    /* color: red; */
+    /*border: 2px solid red;*/
+}
+#bastilleOverAllContainer,#fullPalleteOverAllContainer,#enchantedOverAllContainer,#gourmandOverAllContainer{
+    display: none;
+}
+#bastilleContainer{
+    background-color: rgba(246, 246, 246, 1);
+    padding: 20px 0px 50px 15px; 
+    border-radius: 40px 40px 0px 0px;
+    border: 2px solid red;  
+}
+.bastilleBox{
+    display: flex;
+    justify-content: space-between;
+    /*border: 2px solid red;*/
+    margin-right: 20px;
+    font-size: 24px;
+    font-weight: 800;
+    font-style: italic;
+    margin-bottom: 30px;
+}
+.loveImg2{
+    padding: 8px 0px 0px 10px;
+    width: 40px;
+    height: 100%;
+}
+.entreeContainer{
+    /*border: 7px solid blue;*/
+    margin-right: 10px;
+}
+.entreesBox{
+    /*border: 2px solid purple;*/
+    padding: 10px 0px 15px 0px;
+}
+.entreeHeading{
+    font-size: 18px;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+}
+.line{
+    color: aquamarine;
+    width: 50px;
+    border: 1.3px solid aquamarine;
+}
+.bastilleList{
+    border: 2px solid blue; 
+    padding: 0px 0px 0px 10px;
+    border-radius: 20px 20px 20px 20px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    background-color: rgba(255, 255, 255, 1);
+    
+}
+.citrusBox{
+    /*border: 2px solid aqua;*/
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 10px;
+}
+.citrusPrice, #citrusPrice{
+    font-size: 18px;
+    /*border: 2px solid red;*/
+    padding-top: 28px;
+    padding-right: 15px;
+}
+.correctBox, #correctBox{
+    border: 2px solid green;
+    border-radius: 0px 20px 20px 0px;
+    padding: 10px 10px 10px 10px;
+    display: none;
+    background-color: rgb(192, 242, 225);   
+}
+.orderContainer{
+    text-align: center;
+    /*border: 2px solid;*/
+    margin: 50px 10px 80px 0px;
+}
+.orderHeading{
+    width: 200px;
+    border: none;
+    color: white;
+    background-color: rgba(212, 128, 224, 1);
+    padding: 15px 15px;
+    border-radius: 20px 20px 20px 20px;
+}
+#footer{
+    /* border: 2px solid blue; */
+    padding: 20px 0px 50px 20px;
+    background-color: rgba(53, 53, 53, 1);
+}
+.ohmyfoodBrand2{
+    color: white;
+    width: 120px;
+    margin-bottom: 20px;
+}
+.suggestContainer{
+    display: flex;
+    color: white;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.spoonsImg{
+    width: 14px;
+    margin-right: 15px;
+}
+.legal,.contact{
+    font-size: 14px;
+    color: white;
+    margin-bottom: 10px;
+}
+@media only screen and (min-width: 768px){
+
+       .howItWorkSubContainer{
+        border: 2px solid red;
+        display: flex;
+        justify-content: space-between;
+        padding: 0px 30px 0px 30px;
+       }
+       .restaurantSubContainer{
+        border: 2px solid red;
+        display: flex;
+       }
+       #enchantedBox{
+        border: 2px solid;
+       }
+        /* .foodNewYork2{ */
+        /* border: 1px solid greenyellow; */
+        /* border-radius: 20px 20px 0px 0px; */
+         /* height: 100px;  */
+        /* width: 100%;  */
+    /* } */
+}
+
+@media only screen and (min-width: 1024px){
+
+    .entreeMainDesert{
+        border: 2px solid greenyellow;
+        display: flex;
+        justify-content: space-around;
+       }
+
+}
