@@ -21,11 +21,12 @@ img{
     padding: 20px 40px 20px 20px;
     background-color: rgba(255, 255, 255, 1);
     justify-content: center;
-    justify-content: space-around;
+    /* justify-content: space-around; */
     box-shadow: 20px 20px 20px 20px rgb(145, 145, 145);
 }
 .ohmyfoodBrand1{
     color: white;
+    margin-left: 50px;
     /* border: 2px solid blue; */   
 }
 #bacArrowIcon{
@@ -66,14 +67,15 @@ img{
     color: rgb(181, 181, 179)
 }
 .bookMenuButton{
-    padding: 10px 10px 10px 10px;
+    padding: 15px 30px 15px 30px;
     border-radius: 50px 50px 50px 50px;
     background-color: rgba(219, 109, 218, 1);
     color: white;
+    border: none;
 }
 #howItWorkContainer{
-    /* border: 5px solid blue; */
-    padding: 20px 0px 30px 20px;
+    /* border: 5px solid blue;  */
+    padding: 20px 0px 30px 25px;
     background-color:rgba(255, 255, 255, 1) ;
 }
 .howItWorkHeading{
@@ -89,13 +91,48 @@ img{
     font-size: 18px;
     /* border: 2px solid; */
     background-color: rgba(246, 246, 246, 1);
+    position: relative;
+}
+.chooseBox3{
+    display: flex;
+    padding: 20px 20px 20px 20px;
+    border-radius: 20px 20px 20px 20px;
+    width:310px;
+    margin-bottom: 30px;
+    font-size: 18px;
+    /* border: 2px solid; */
+    background-color: rgba(236, 224, 244, 0.801);
+    position: relative;
+}
+.circle1{
+    position: absolute;
+    background-color: rgb(185, 106, 235);
+    color: white;
+    width: 30px;
+    height: 30px;
+    padding-top: 5px;
+    border-radius: 50px 50px;
+    text-align: center;
+    z-index: 999;
+    top: 20px;
+    left: -10px;
 }
 .chooseImg{
     width: 16px;
     margin-right: 20px;
+    margin-left: 30px;
+    font-size: 16px;
+}
+.fa-store{
+    color: rgb(185, 106, 235);
+    margin-right: 20px;
+    margin-left: 30px;
+    font-size: 16px;
+    margin-top: 5px;
 }
 .chooseWord{
     padding-top: 5px;
+    
 }
 #restaurantContainer{
     /* border: 2px solid red; */
@@ -107,10 +144,30 @@ img{
     font-size: 20px;
 }
 #fullPaletteBox,#enchantedBox,#bastilleBox,#gourmandBox{
-    /*border: 2px solid blue;*/
+    /* border: 2px solid blue; */
     margin: 0px 25px 30px 0px;
     border-radius: 0px 0px 20px 20px;
     /* background-color: white; */
+}
+.relative{
+    position: relative;
+    display: block;
+    /* border: 2px solid red; */
+}
+.new{
+    position: absolute;
+    z-index: 999;
+    top: 0px;
+    right: 0;
+    margin: 10px 20px;
+    padding: 10px 0px 30px 0px;
+    color: rgba(3, 105, 89, 0.794) ;
+    background-color:rgba(124, 219, 205, 0.794) ;
+    width: 100px;
+    text-align: center;
+    height: 30px;
+    font-size: 18px;
+    font-weight: 800;
 }
 .foodNewYork{
     /*border: 1px solid greenyellow;*/
@@ -119,8 +176,8 @@ img{
 .foodNewYork2{
     /*border: 1px solid greenyellow;*/
     border-radius: 20px 20px 0px 0px;
-    height: 200px;
-    width: 100%;
+    width: 370px;
+    height: 190px;  
 }
 #paletteInfoContainer{
     /* border: 2px solid green; */
@@ -142,14 +199,24 @@ img{
     /* color: red; */
     /*border: 2px solid red;*/
 }
+.fa-heart{
+    font-size: 24px;
+    height: 100%;
+}
+.fa-heart:hover{
+    color: rgb(185, 106, 235);
+}
 #bastilleOverAllContainer,#fullPalleteOverAllContainer,#enchantedOverAllContainer,#gourmandOverAllContainer{
     display: none;
+    position: relative;
 }
 #bastilleContainer{
     background-color: rgba(246, 246, 246, 1);
     padding: 20px 0px 50px 15px; 
-    border-radius: 40px 40px 0px 0px;
-    border: 2px solid red;  
+    border-radius: 50px 50px 0px 0px;
+    /* border: 2px solid red;    */
+    margin-top: -30px;
+    position: relative;
 }
 .bastilleBox{
     display: flex;
@@ -165,6 +232,13 @@ img{
     padding: 8px 0px 0px 10px;
     width: 40px;
     height: 100%;
+}
+.bastilefullBox2{
+    height: 320px;
+}
+.bastilefullImg2{
+    height: 320px;
+    width: 450px;
 }
 .entreeContainer{
     /*border: 7px solid blue;*/
@@ -185,31 +259,32 @@ img{
     border: 1.3px solid aquamarine;
 }
 .bastilleList{
-    border: 2px solid blue; 
+    /* border: 2px solid rgba(255, 255, 255, 1); */
     padding: 0px 0px 0px 10px;
     border-radius: 20px 20px 20px 20px;
     display: flex;
     justify-content: space-between;
     margin-bottom: 30px;
-    background-color: rgba(255, 255, 255, 1);
-    
+    background-color: rgba(255, 255, 255, 1); 
 }
+
 .citrusBox{
     /*border: 2px solid aqua;*/
     font-size: 18px;
+    padding-top: 20px;
     line-height: 24px;
     margin-bottom: 10px;
 }
 .citrusPrice, #citrusPrice{
     font-size: 18px;
     /*border: 2px solid red;*/
-    padding-top: 28px;
-    padding-right: 15px;
+    padding-top: 45px;
+    padding-right: 5px;
 }
 .correctBox, #correctBox{
-    border: 2px solid green;
+    /* border: 2px solid green; */
     border-radius: 0px 20px 20px 0px;
-    padding: 10px 10px 10px 10px;
+    padding: 20px 10px 20px 10px;
     display: none;
     background-color: rgb(192, 242, 225);   
 }
@@ -232,54 +307,179 @@ img{
     background-color: rgba(53, 53, 53, 1);
 }
 .ohmyfoodBrand2{
-    color: white;
+    font-family: 'Open Sans', sans-serif;
     width: 120px;
     margin-bottom: 20px;
+    color: white;
+    font-size: 30px;
+    font-weight: 900;
 }
 .suggestContainer{
     display: flex;
     color: white;
-    font-size: 20px;
+    font-size: 24px;
     margin-bottom: 10px;
 }
-.spoonsImg{
-    width: 14px;
-    margin-right: 15px;
+.spoonsImg,.fa-handshake-angle{
+    width: 30px;
+    height: 30px;
+    margin-right: 15px;  
+    color: white;
+}
+
+.suggestWord{
+    padding-top: 5px;
 }
 .legal,.contact{
-    font-size: 14px;
+    font-size: 19px;
     color: white;
     margin-bottom: 10px;
 }
 @media only screen and (min-width: 768px){
-
-       .howItWorkSubContainer{
-        border: 2px solid red;
+    #howItWorkContainer{
+        /* border: 5px solid blue; */
+        padding: 20px 0px 30px 20px;
+        background-color:rgba(255, 255, 255, 1) ;
+    }
+    .howItWorkSubContainer{
+        /* border: 2px solid red;  */
         display: flex;
-        justify-content: space-between;
-        padding: 0px 30px 0px 30px;
+        flex-wrap: wrap;
+        padding: 0px 10px 0px 0px;
        }
+    .howItWorkHeading{
+        margin-left: 20px;
+    }
+       .chooseBox{
+        display: flex;
+        margin-left: 15px; 
+        padding: 20px 0px 20px 0px;
+        border-radius: 20px 20px 20px 20px;
+        width:400px;
+        margin-bottom: 30px;
+        font-size: 18px;
+        background-color: rgba(246, 246, 246, 1);
+    }
+    .chooseBox3{
+        display: flex;
+        padding: 20px 20px 20px 20px;
+        border-radius: 20px 20px 20px 20px;
+        width:400px;
+        margin-left: 15px;
+        margin-bottom: 30px;
+        font-size: 18px;
+        /* border: 2px solid; */
+        background-color: rgba(236, 224, 244, 0.801);
+        position: relative;   
+    }
+    .chooseImg{
+        width: 15px;
+        height: 15px;
+        margin-right: 6px;
+        margin-left: 40px;
+        margin-top: 5px;
+    }
+    .fa-store{
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+       #restaurantContainer{
+        /* border: 2px solid red; */
+        padding: 50px 0px 80px 20px;
+        background-color: rgba(246, 246, 246, 1);
+    }
        .restaurantSubContainer{
-        border: 2px solid red;
-        display: flex;
+        /* border: 2px solid rgb(76, 0, 255);  */
+        display: flex; 
+        flex-wrap: wrap;
+        justify-content: space-around;
        }
-       #enchantedBox{
-        border: 2px solid;
-       }
-        /* .foodNewYork2{ */
-        /* border: 1px solid greenyellow; */
-        /* border-radius: 20px 20px 0px 0px; */
-         /* height: 100px;  */
-        /* width: 100%;  */
-    /* } */
+    #fullPaletteBox,#enchantedBox,#bastilleBox,#gourmandBox{
+        /* border: 2px solid rgb(170, 24, 38); */
+        margin: 0px 8px 10px 0px;
+        border-radius: 0px 0px 20px 20px;
+        width: 300px;
+        /* background-color: white; */
+    }
+    .foodNewYork{
+        /* border: 5px solid greenyellow; */
+        border-radius: 20px 20px 0px 0px;
+        width: 300px;
+        
+    }
+    .paletteWord{
+        /*border: 2px solid red;*/
+        font-size: 18px;
+    }
+    .bastilefullBox2{
+        height: 520px;
+        /* border: 3px solid blue; */
+    }
+    .bastilefullImg2{
+        height: 520px;
+        width: 100%;
+        /* border: 2px solid red; */
+    }   
 }
 
 @media only screen and (min-width: 1024px){
 
+    .bastilefullBox{
+        border: 2px solid;
+        height: 500px;
+    }
+    .bastilefullImg{
+        height: 500px;
+        width: 100%;
+    }
     .entreeMainDesert{
-        border: 2px solid greenyellow;
         display: flex;
         justify-content: space-around;
+        flex-wrap: wrap;
+    }
+    .howItWorkSubContainer{
+        /* border: 2px solid red; */
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        padding: 0px 50px 0px 20px;
        }
+    .restaurantSubContainer{
+        /* border: 2px solid rgb(76, 0, 255);   */
+        display: flex; 
+        justify-content: space-around;
+        flex-wrap: nowrap;
+       }
+    #fullPaletteBox,#enchantedBox,#bastilleBox,#gourmandBox{
+        /* border: 2px solid rgb(170, 24, 38); */
+        margin: 0px 10px 30px 0px;
+        border-radius: 0px 0px 20px 20px;
+        width: 600px;
+        /* background-color: white; */
+    }
+    .foodNewYork{
+        /* border: 5px solid greenyellow; */
+        border-radius: 20px 20px 0px 0px;
+        width: 600px;
+        height: 200px;
+    }
+    .foodNewYork2{
+        /*border: 1px solid greenyellow;*/
+        border-radius: 20px 20px 0px 0px;
+        width: 600px;
+        height: 200px;
+    }
+    .bastilleList{
+        /* border: 2px solid rgba(255, 255, 255, 1); */
+        padding: 0px 0px 0px 10px;
+        border-radius: 20px 20px 20px 20px;
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 30px;
+        /* border: 2px solid red; */
+        width: 450px;
+        background-color: rgba(255, 255, 255, 1); 
+    }
+   
 
 }
