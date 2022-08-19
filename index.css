@@ -261,16 +261,16 @@ img{
     border: 1.3px solid aquamarine;
 }
 .bastille-list{
-    /* border: 2px solid rgba(255, 255, 255, 1); */
+    /* border: 2px solid rgba(255, 255, 255, 1);*/
     padding: 0px 0px 0px 10px;
     border-radius: 20px 20px 20px 20px;
     display: flex;
     justify-content: space-between;
     margin-bottom: 30px;
+    cursor: pointer;
     /* border: 2px solid red; */
     background-color: rgba(255, 255, 255, 1); 
 }
-
 .citrus-box{
     /*border: 2px solid aqua;*/
     font-size: 18px;
@@ -284,6 +284,7 @@ img{
     padding-top: 45px;
     padding-right: 5px;
 }
+
 .correct-box{
     /* border: 2px solid green; */
     border-radius: 0px 20px 20px 0px;
@@ -291,6 +292,9 @@ img{
     display: none;
     background-color: rgb(192, 242, 225);
        
+}
+.bastille-list:hover .correct-box{
+    display: block;
 }
 .order-container{
     text-align: center;
@@ -392,12 +396,12 @@ img{
      padding: 50px 0px 80px 20px;
      background-color: rgba(246, 246, 246, 1);
     }
-       .restaurant-sub{
-        /* border: 2px solid rgb(76, 0, 255);  */
-        display: flex; 
-        flex-wrap: wrap;
-        justify-content: space-around;
-       }
+    .restaurant-sub{
+     /* border: 2px solid rgb(76, 0, 255);  */
+     display: flex; 
+     flex-wrap: wrap;
+     justify-content: space-around;
+    }
     #full-palette-box,#enchanted-box,#bastille-box,#gourmand-box{
         /* border: 2px solid rgb(170, 24, 38); */
         margin: 0px 8px 10px 0px;
@@ -431,7 +435,6 @@ img{
     .bastilefull-box{
         /* border: 6px solid greenyellow; */
         height: 500px;
-        
     }
     .bastilefullImg{
         height: 500px;
@@ -462,6 +465,7 @@ img{
         width: 600px;
         /* background-color: white; */
     }
+    
     .food-new{
         /* border: 5px solid greenyellow; */
         border-radius: 20px 20px 0px 0px;
@@ -486,5 +490,4 @@ img{
         background-color: rgba(255, 255, 255, 1); 
     }
    
-
 }

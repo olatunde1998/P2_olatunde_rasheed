@@ -9,8 +9,7 @@ let enchanted = document.getElementById('enchanted-box');
 let bastille = document.getElementById('bastille-box');
 let gourmand = document.getElementById('gourmand-box');
 let love = document.getElementById('back-arrow-icon');
-var animation = document.querySelector('.bastille-list');
-var correct = document.querySelector('.correctBox');
+
 
 //pallete code
 
@@ -72,13 +71,3 @@ love.addEventListener('click', function(){
 
 
 
-animation.addEventListener('mouseenter', function(){
-  correct.style.display ='block';
-  //correct.style.display ='block';
-  
-})
-animation.addEventListener('mouseleave', function(){
-  correct.style.display ='none';
-  //correct.style.display ='block';
-  
-})
