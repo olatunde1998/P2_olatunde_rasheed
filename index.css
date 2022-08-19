@@ -24,17 +24,17 @@ img{
     /* justify-content: space-around; */
     box-shadow: 20px 20px 20px 20px rgb(145, 145, 145);
 }
-.ohmyfoodBrand1{
+.ohmy_food{
     color: white;
     margin-left: 50px;
     /* border: 2px solid blue; */   
 }
-#bacArrowIcon{
+#back-arrow-icon{
     width: 24px;
     display: none;
     /* border: 2px solid green; */
 }
-.parisContainer{
+.paris_container{
     /* border: 2px solid blue; */
     padding: 20px 0px 20px 0px;
     background-color: rgba(234, 234, 234, 1);
@@ -43,22 +43,22 @@ img{
     justify-content: center;
     box-shadow: 5px 5px 5px 5px rgb(145, 145, 145);
 }
-.parisLocationImg{
+.paris_location{
     width: 18px;
     margin-right: 24px;
 }
-.bookMenuContainer{
+.book_menu{
     padding: 15px 0px 30px 0px;
     /* border: 2px solid red; */
     text-align: center;
     background-color: rgba(246, 246, 246, 1);
 }
-.bookHeading{
+.book-heading{
     /*border: 2px solid ;*/
     padding: 15px 0px 30px 0px;
     font-size: 20px;
 }
-.bookInfo{
+.book-info{
     /*border: 2px solid red;*/
     text-align: center;
     padding: 0px 0px 20px 0px;
@@ -66,23 +66,24 @@ img{
     line-height: 20px;
     color: rgb(181, 181, 179)
 }
-.bookMenuButton{
+.bookmenu-button{
     padding: 15px 30px 15px 30px;
     border-radius: 50px 50px 50px 50px;
-    background-color: rgba(219, 109, 218, 1);
+    /* background-color: rgba(219, 109, 218, 1); */
     color: white;
     border: none;
+    background-image: linear-gradient(rgba(219, 109, 218, 1), rgb(154, 84, 227));
 }
-#howItWorkContainer{
-    /* border: 5px solid blue;  */
+#howitwork-container{
+    /* border: 5px solid blue;   */
     padding: 20px 0px 30px 25px;
     background-color:rgba(255, 255, 255, 1) ;
 }
-.howItWorkHeading{
+.howitWork-heading{
     margin-bottom: 30px;
     font-size: 20px;
 }
-.chooseBox{
+.choose_box{
     display: flex;
     padding: 20px 20px 20px 20px;
     border-radius: 20px 20px 20px 20px;
@@ -93,7 +94,7 @@ img{
     background-color: rgba(246, 246, 246, 1);
     position: relative;
 }
-.chooseBox3{
+.choose_box3{
     display: flex;
     padding: 20px 20px 20px 20px;
     border-radius: 20px 20px 20px 20px;
@@ -117,7 +118,7 @@ img{
     top: 20px;
     left: -10px;
 }
-.chooseImg{
+.choose_img{
     width: 16px;
     margin-right: 20px;
     margin-left: 30px;
@@ -130,23 +131,24 @@ img{
     font-size: 16px;
     margin-top: 5px;
 }
-.chooseWord{
+.choose-word{
     padding-top: 5px;
     
 }
-#restaurantContainer{
+#restaurant-container{
     /* border: 2px solid red; */
     padding: 20px 0px 30px 20px;
     background-color: rgba(246, 246, 246, 1);
 }
-.restaurantHeading{
+.restaurant-heading{
     margin-bottom: 30px;
     font-size: 20px;
 }
-#fullPaletteBox,#enchantedBox,#bastilleBox,#gourmandBox{
+#full-palette-box,#enchanted-box,#bastille-box,#gourmand-box{
     /* border: 2px solid blue; */
     margin: 0px 25px 30px 0px;
     border-radius: 0px 0px 20px 20px;
+    cursor: pointer;
     /* background-color: white; */
 }
 .relative{
@@ -169,18 +171,18 @@ img{
     font-size: 18px;
     font-weight: 800;
 }
-.foodNewYork{
+.food-new {
     /*border: 1px solid greenyellow;*/
     border-radius: 20px 20px 0px 0px;
 }
-.foodNewYork2{
+.food-new2{
     /*border: 1px solid greenyellow;*/
     border-radius: 20px 20px 0px 0px;
     width: 370px;
     height: 190px;  
 }
-#paletteInfoContainer{
-    /* border: 2px solid green; */
+#paletteinfo-container{
+    /* border: 2px solid rgb(135, 235, 135);  */
     background-color: rgba(255, 255, 255, 1);
     display: flex;
     justify-content: space-between;
@@ -188,7 +190,7 @@ img{
     border-radius: 0px 0px 20px 20px;
     box-shadow: 3px 3px 3px 3px rgb(214, 213, 213);
 }
-.paletteWord{
+.palette-word{
     /*border: 2px solid red;*/
     font-size: 18px;
 }
@@ -206,11 +208,11 @@ img{
 .fa-heart:hover{
     color: rgb(185, 106, 235);
 }
-#bastilleOverAllContainer,#fullPalleteOverAllContainer,#enchantedOverAllContainer,#gourmandOverAllContainer{
+#bastille-overall-container,#fullpallete-overall-container,#enchanted-overall-container,#gourmand-overall-container{
     display: none;
     position: relative;
 }
-#bastilleContainer{
+#bastille-container{
     background-color: rgba(246, 246, 246, 1);
     padding: 20px 0px 50px 15px; 
     border-radius: 50px 50px 0px 0px;
@@ -218,7 +220,7 @@ img{
     margin-top: -30px;
     position: relative;
 }
-.bastilleBox{
+.bastille-box{
     display: flex;
     justify-content: space-between;
     /*border: 2px solid red;*/
@@ -233,22 +235,22 @@ img{
     width: 40px;
     height: 100%;
 }
-.bastilefullBox2{
+.bastilefull-box2{
     height: 320px;
 }
 .bastilefullImg2{
     height: 320px;
     width: 450px;
 }
-.entreeContainer{
+.entree-container{
     /*border: 7px solid blue;*/
     margin-right: 10px;
 }
-.entreesBox{
+.entrees-box{
     /*border: 2px solid purple;*/
     padding: 10px 0px 15px 0px;
 }
-.entreeHeading{
+.entree-heading{
     font-size: 18px;
     text-transform: uppercase;
     margin-bottom: 5px;
@@ -258,46 +260,48 @@ img{
     width: 50px;
     border: 1.3px solid aquamarine;
 }
-.bastilleList{
+.bastille-list{
     /* border: 2px solid rgba(255, 255, 255, 1); */
     padding: 0px 0px 0px 10px;
     border-radius: 20px 20px 20px 20px;
     display: flex;
     justify-content: space-between;
     margin-bottom: 30px;
+    /* border: 2px solid red; */
     background-color: rgba(255, 255, 255, 1); 
 }
 
-.citrusBox{
+.citrus-box{
     /*border: 2px solid aqua;*/
     font-size: 18px;
     padding-top: 20px;
     line-height: 24px;
     margin-bottom: 10px;
 }
-.citrusPrice, #citrusPrice{
+.citrus-price, #citrus-price{
     font-size: 18px;
     /*border: 2px solid red;*/
     padding-top: 45px;
     padding-right: 5px;
 }
-.correctBox, #correctBox{
+.correct-box{
     /* border: 2px solid green; */
     border-radius: 0px 20px 20px 0px;
     padding: 20px 10px 20px 10px;
     display: none;
-    background-color: rgb(192, 242, 225);   
+    background-color: rgb(192, 242, 225);
+       
 }
-.orderContainer{
+.order-container{
     text-align: center;
     /*border: 2px solid;*/
     margin: 50px 10px 80px 0px;
 }
-.orderHeading{
+.order-heading{
     width: 200px;
     border: none;
     color: white;
-    background-color: rgba(212, 128, 224, 1);
+    background-image: linear-gradient(rgba(219, 109, 218, 1), rgb(154, 84, 227));
     padding: 15px 15px;
     border-radius: 20px 20px 20px 20px;
 }
@@ -306,7 +310,7 @@ img{
     padding: 20px 0px 50px 20px;
     background-color: rgba(53, 53, 53, 1);
 }
-.ohmyfoodBrand2{
+.ohmyfood-brand2{
     font-family: 'Open Sans', sans-serif;
     width: 120px;
     margin-bottom: 20px;
@@ -314,20 +318,20 @@ img{
     font-size: 30px;
     font-weight: 900;
 }
-.suggestContainer{
+.suggest-container{
     display: flex;
     color: white;
     font-size: 24px;
     margin-bottom: 10px;
 }
-.spoonsImg,.fa-handshake-angle{
+.spoons-img,.fa-handshake-angle{
     width: 30px;
     height: 30px;
     margin-right: 15px;  
     color: white;
 }
 
-.suggestWord{
+.suggest-word{
     padding-top: 5px;
 }
 .legal,.contact{
@@ -336,21 +340,21 @@ img{
     margin-bottom: 10px;
 }
 @media only screen and (min-width: 768px){
-    #howItWorkContainer{
+    #how-itwork{
         /* border: 5px solid blue; */
         padding: 20px 0px 30px 20px;
         background-color:rgba(255, 255, 255, 1) ;
     }
-    .howItWorkSubContainer{
+    .howitwork-sub{
         /* border: 2px solid red;  */
         display: flex;
         flex-wrap: wrap;
         padding: 0px 10px 0px 0px;
        }
-    .howItWorkHeading{
+    .howItWork-heading{
         margin-left: 20px;
     }
-       .chooseBox{
+    .choose_box{
         display: flex;
         margin-left: 15px; 
         padding: 20px 0px 20px 0px;
@@ -360,7 +364,7 @@ img{
         font-size: 18px;
         background-color: rgba(246, 246, 246, 1);
     }
-    .chooseBox3{
+    .choose_box3{
         display: flex;
         padding: 20px 20px 20px 20px;
         border-radius: 20px 20px 20px 20px;
@@ -372,7 +376,7 @@ img{
         background-color: rgba(236, 224, 244, 0.801);
         position: relative;   
     }
-    .chooseImg{
+    .choose_img{
         width: 15px;
         height: 15px;
         margin-right: 6px;
@@ -383,35 +387,35 @@ img{
         margin-right: 10px;
         margin-left: 10px;
     }
-       #restaurantContainer{
-        /* border: 2px solid red; */
-        padding: 50px 0px 80px 20px;
-        background-color: rgba(246, 246, 246, 1);
+    #restaurant-container{
+     /* border: 2px solid red; */
+     padding: 50px 0px 80px 20px;
+     background-color: rgba(246, 246, 246, 1);
     }
-       .restaurantSubContainer{
+       .restaurant-sub{
         /* border: 2px solid rgb(76, 0, 255);  */
         display: flex; 
         flex-wrap: wrap;
         justify-content: space-around;
        }
-    #fullPaletteBox,#enchantedBox,#bastilleBox,#gourmandBox{
+    #full-palette-box,#enchanted-box,#bastille-box,#gourmand-box{
         /* border: 2px solid rgb(170, 24, 38); */
         margin: 0px 8px 10px 0px;
         border-radius: 0px 0px 20px 20px;
         width: 300px;
         /* background-color: white; */
     }
-    .foodNewYork{
+    .food-new{
         /* border: 5px solid greenyellow; */
         border-radius: 20px 20px 0px 0px;
         width: 300px;
         
     }
-    .paletteWord{
+    .palette-word{
         /*border: 2px solid red;*/
         font-size: 18px;
     }
-    .bastilefullBox2{
+    .bastilefull-box2{
         height: 520px;
         /* border: 3px solid blue; */
     }
@@ -424,9 +428,10 @@ img{
 
 @media only screen and (min-width: 943px){
 
-    .bastilefullBox{
-        border: 2px solid;
+    .bastilefull-box{
+        /* border: 6px solid greenyellow; */
         height: 500px;
+        
     }
     .bastilefullImg{
         height: 500px;
@@ -437,39 +442,39 @@ img{
         justify-content: space-around;
         flex-wrap: wrap;
     }
-    .howItWorkSubContainer{
+    .howitwork-sub{
         /* border: 2px solid red; */
         display: flex;
         flex-wrap: nowrap;
         justify-content: space-between;
         padding: 0px 50px 0px 20px;
        }
-    .restaurantSubContainer{
+    .restaurant-sub{
         /* border: 2px solid rgb(76, 0, 255);   */
         display: flex; 
         justify-content: space-around;
         flex-wrap: nowrap;
        }
-    #fullPaletteBox,#enchantedBox,#bastilleBox,#gourmandBox{
+       #full-palette-box,#enchanted-box,#bastille-box,#gourmand-box{
         /* border: 2px solid rgb(170, 24, 38); */
         margin: 0px 10px 30px 0px;
         border-radius: 0px 0px 20px 20px;
         width: 600px;
         /* background-color: white; */
     }
-    .foodNewYork{
+    .food-new{
         /* border: 5px solid greenyellow; */
         border-radius: 20px 20px 0px 0px;
         width: 600px;
         height: 200px;
     }
-    .foodNewYork2{
+    .food-new2{
         /*border: 1px solid greenyellow;*/
         border-radius: 20px 20px 0px 0px;
         width: 600px;
         height: 200px;
     }
-    .bastilleList{
+    .bastille-list{
         /* border: 2px solid rgba(255, 255, 255, 1); */
         padding: 0px 0px 0px 10px;
         border-radius: 20px 20px 20px 20px;

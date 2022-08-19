@@ -1,15 +1,15 @@
 let hidHome = document.getElementById('header');
-let palettedropup = document.getElementById('fullPalleteOverAllContainer');
-let enchantedropup = document.getElementById('enchantedOverAllContainer');
-let bastilledropup = document.getElementById('bastilleOverAllContainer');
-let gourmanddropup = document.getElementById('gourmandOverAllContainer');
-let office = document.getElementById('homeContainer');
-let pallete = document.getElementById('fullPaletteBox');
-let enchanted = document.getElementById('enchantedBox');
-let bastille = document.getElementById('bastilleBox');
-let gourmand = document.getElementById('gourmandBox');
-let love = document.getElementById('bacArrowIcon');
-var animation = document.querySelector('.bastilleList');
+let palettedropup = document.getElementById('fullpallete-overall-container');
+let enchantedropup = document.getElementById('enchanted-overall-container');
+let bastilledropup = document.getElementById('bastille-overall-container');
+let gourmanddropup = document.getElementById('gourmand-overall-container');
+let office = document.getElementById('home_container');
+let pallete = document.getElementById('full-palette-box');
+let enchanted = document.getElementById('enchanted-box');
+let bastille = document.getElementById('bastille-box');
+let gourmand = document.getElementById('gourmand-box');
+let love = document.getElementById('back-arrow-icon');
+var animation = document.querySelector('.bastille-list');
 var correct = document.querySelector('.correctBox');
 
 //pallete code
@@ -67,6 +67,10 @@ love.addEventListener('click', function(){
  gourmanddropup.style.display ='none';
   love.style.display ='none';
 })
+
+
+
+
 
 animation.addEventListener('mouseenter', function(){
   correct.style.display ='block';
