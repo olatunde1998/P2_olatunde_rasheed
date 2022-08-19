@@ -8,5 +8,5 @@ so that they are ready when they arrive. No more wait times in restaurants!
 ##ohmyfood web page link address :- https://olatunde1998.github.io/P2_olatunde_rasheed/
 
 
-##ohmyfood web page link address :- https://github.com/P2_olatunde_rasheed/
+##ohmyfood web github page link address :- https://github.com/P2_olatunde_rasheed/
 
