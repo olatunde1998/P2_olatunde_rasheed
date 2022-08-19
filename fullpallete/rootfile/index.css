@@ -14,12 +14,9 @@ img{
     max-width:100%;
     height:auto;
 }
-a{
-    text-decoration: none;
-}
 #header{
     color: rgba(0, 0, 0, 1);
-    
+    display: flex;
     /* border: 2px solid red;  */
     padding: 20px 40px 20px 20px;
     background-color: rgba(255, 255, 255, 1);
@@ -194,7 +191,6 @@ a{
 .palette-word{
     /*border: 2px solid red;*/
     font-size: 18px;
-    text-decoration: none;
 }
 #loveImg,.loveImg{
     width: 30px;
@@ -210,7 +206,107 @@ a{
 .fa-heart:hover{
     color: rgb(185, 106, 235);
 }
+#bastille-overall-container,#fullpallete-overall-container,#enchanted-overall-container,#gourmand-overall-container{
+    display: none;
+    position: relative;
+}
+#bastille-container{
+    background-color: rgba(246, 246, 246, 1);
+    padding: 20px 0px 50px 15px; 
+    border-radius: 50px 50px 0px 0px;
+    /* border: 2px solid red;    */
+    margin-top: -30px;
+    position: relative;
+}
+.bastille-box{
+    display: flex;
+    justify-content: space-between;
+    /*border: 2px solid red;*/
+    margin-right: 20px;
+    font-size: 24px;
+    font-weight: 800;
+    font-style: italic;
+    margin-bottom: 30px;
+}
+.loveImg2{
+    padding: 8px 0px 0px 10px;
+    width: 40px;
+    height: 100%;
+}
+.bastilefull-box2{
+    height: 320px;
+}
+.bastilefullImg2{
+    height: 320px;
+    width: 450px;
+}
+.entree-container{
+    /*border: 7px solid blue;*/
+    margin-right: 10px;
+}
+.entrees-box{
+    /*border: 2px solid purple;*/
+    padding: 10px 0px 15px 0px;
+}
+.entree-heading{
+    font-size: 18px;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+}
+.line{
+    color: aquamarine;
+    width: 50px;
+    border: 1.3px solid aquamarine;
+}
+.bastille-list{
+    /* border: 2px solid rgba(255, 255, 255, 1);*/
+    padding: 0px 0px 0px 10px;
+    border-radius: 20px 20px 20px 20px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    cursor: pointer;
+    /* border: 2px solid red; */
+    background-color: rgba(255, 255, 255, 1); 
+}
+.citrus-box{
+    /*border: 2px solid aqua;*/
+    font-size: 18px;
+    padding-top: 20px;
+    line-height: 24px;
+    margin-bottom: 10px;
+}
+.citrus-price, #citrus-price{
+    font-size: 18px;
+    /*border: 2px solid red;*/
+    padding-top: 45px;
+    padding-right: 5px;
+}
 
+.correct-box{
+    /* border: 2px solid green; */
+    border-radius: 0px 20px 20px 0px;
+    padding: 20px 10px 20px 10px;
+    display: none;
+    background-color: rgb(192, 242, 225);
+       
+}
+.bastille-list:hover .correct-box{
+    display: block;
+}
+.order-container{
+    text-align: center;
+    /*border: 2px solid;*/
+    margin: 50px 10px 80px 0px;
+}
+.order-heading{
+    width: 200px;
+    border: none;
+    color: white;
+    background-image: linear-gradient(rgba(219, 109, 218, 1), rgb(154, 84, 227));
+    padding: 15px 15px;
+    border-radius: 20px 20px 20px 20px;
+}
 #footer{
     /* border: 2px solid blue; */
     padding: 20px 0px 50px 20px;
