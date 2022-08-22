@@ -330,7 +330,11 @@ a{
         height: 520px;
         width: 100%;
         /* border: 2px solid red; */
-    }   
+    }  
+    img{
+        max-width:100%;
+        height:auto;
+    } 
 }
 
 @media only screen and (min-width: 943px){
@@ -392,5 +396,9 @@ a{
         width: 450px;
         background-color: rgba(255, 255, 255, 1); 
     }
+    img{
+        max-width:100%;
+        height:auto;
+    } 
    
 }
